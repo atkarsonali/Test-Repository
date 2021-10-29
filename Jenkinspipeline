@@ -3,10 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                steps{
-                    sh 'mkdir build'
-                }
-               //echo "build"
+               echo "build"
             }
         }
         stage('Test') { 
