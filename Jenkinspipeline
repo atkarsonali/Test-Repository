@@ -4,6 +4,7 @@ pipeline {
         stage('Build') { 
             steps {
                bat 'dir'
+               bat 'mkdir file'
                //echo "build"
             }
         }
