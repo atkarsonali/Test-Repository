@@ -3,7 +3,9 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                echo "Build run" 
+                sh 'mkdir build'
+                sh 'touch build/readme.txt'
+                sh 'echo "test 1..2..3"> build/readme.txt'
             }
         }
         stage('Test') { 
