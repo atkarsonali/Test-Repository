@@ -1,0 +1,22 @@
+{
+  "name": "test-repository",
+  "version": "1.0.0",
+  "description": "Test 1..2..3..4..5..6..7..8..9..10",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atkarsonali/Test-Repository.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atkarsonali/Test-Repository/issues"
+  },
+  "homepage": "https://github.com/atkarsonali/Test-Repository#readme",
+  "devDependencies": {
+    "cypress": "^8.7.0"
+  }
+}
