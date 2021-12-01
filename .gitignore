@@ -1,2 +1,29 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# Test Report
+test-output/
+
+
 # Dependencies
 /node_modules
+
+#Test report cypress
+/mochawesome-report
+
+#Videos
+/cypress/videos
