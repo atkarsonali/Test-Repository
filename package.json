@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "delete:reportFolder": "rm -rf mochawesome-report/",
+    "delete:reportFolder": "rmdir /s /q mochawesome-report",
     "test:cli": "npm run delete:reportFolder && cypress run",
     "merge:reports": "mochawesome-merge mochawesome-report/*.json > cypress-combined-report.json",
     "create:html:report": "npm run merge:reports && marge --reportDir TestReport cypress-combined-report.json"

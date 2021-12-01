@@ -1,6 +1,6 @@
 describe('first test',()=>{
         
-    it('Visit Tour of heroes',()=>{
+ /*   it('Visit Tour of heroes',()=>{
         cy.visit('http://localhost:4200/dashboard')
     })
     it('Verify tour of heroes heading',()=>{
@@ -31,7 +31,7 @@ describe('first test',()=>{
         cy.get('#search-box').should('be.visible')
         cy.get('#search-box').type('narco')
         cy.wait(1000)
-    })
+    }) */
 
     it('test case',()=>{
         expect(true).to.equal(true)
