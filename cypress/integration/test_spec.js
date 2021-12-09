@@ -37,4 +37,11 @@ describe('first test',()=>{
         expect(true).to.equal(true)
         expect(true).to.equal(true)
     })
+
+    it('Visit site',()=>{
+        cy.visit('http://localhost:4200')
+    })
+    it('verify weather heading',()=>{
+        cy.get('#tableLabel').should('have.text','Weather forecast')
+    })
 })
