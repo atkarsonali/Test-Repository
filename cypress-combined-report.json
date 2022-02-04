@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-12-01T08:08:08.363Z",
-    "end": "2021-12-01T08:08:10.629Z",
-    "duration": 1257,
+    "start": "2022-02-04T10:53:48.526Z",
+    "end": "2022-02-04T10:53:56.476Z",
+    "duration": 1004,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "0dde93d8-1f32-4143-9205-7ec759581ebc",
+      "uuid": "56398ce5-a4ac-47cf-ba94-969ebf6a1366",
       "title": "",
       "fullFile": "cypress/integration/test_spec.js",
       "file": "cypress/integration/test_spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "34b639d9-d910-4a20-9579-7c0ea3970ec4",
+          "uuid": "b2ebe66d-8ad9-4470-b40f-1468538da72f",
           "title": "first test",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "test case",
               "fullTitle": "first test test case",
               "timedOut": null,
-              "duration": 1257,
+              "duration": 1004,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "expect(true).to.equal(true);\nexpect(true).to.equal(true);",
               "err": {},
-              "uuid": "c9bebf13-afec-4073-89c6-8c07a0490cdc",
-              "parentUUID": "34b639d9-d910-4a20-9579-7c0ea3970ec4",
+              "uuid": "68999768-aaf4-4dd5-9516-0c56c695b192",
+              "parentUUID": "b2ebe66d-8ad9-4470-b40f-1468538da72f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c9bebf13-afec-4073-89c6-8c07a0490cdc"
+            "68999768-aaf4-4dd5-9516-0c56c695b192"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1257,
+          "duration": 1004,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
