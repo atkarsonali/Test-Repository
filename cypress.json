@@ -1,4 +1,5 @@
 {
+    "chromeWebSecurity": false,
     "reporter": "../node_modules/mochawesome/src/mochawesome.js",
     "reporterOptions": {
         "overwrite": false,
